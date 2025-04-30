@@ -1,0 +1,1 @@
+console.log("hello please enter your age");
