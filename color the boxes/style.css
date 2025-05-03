@@ -1,0 +1,30 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    border: 10px solid black;
+    text-align: center;
+    align-content: center;
+    font-size: 64px;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 150px;
+    width: 300px;
+    font-size: 32px;
+}
