@@ -1,4 +1,4 @@
-.body{
+body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,8 @@
     margin: 50px;
     border: 10px solid black;
     text-align: center;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     font-size: 64px;
 }
 .button-wrapper{
