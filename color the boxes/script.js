@@ -57,7 +57,7 @@ function colorb3() {
 function colorbg1() {
     // bg for box 1
     let randombg = randomnumber();
-    if (randomcolor<0.33) {
+    if (randombg<0.33) {
         document.getElementById("box1").style.backgroundColor="red";
     }
     else if (randombg>0.33 && randombg<0.66){
@@ -70,7 +70,7 @@ function colorbg1() {
 function colorbg2() {
     // bg for box 2
     let randombg = randomnumber();
-    if (randomcolor<0.33) {
+    if (randombg<0.33) {
         document.getElementById("box2").style.backgroundColor="red";
     }
     else if (randombg>0.33 && randombg<0.66){
