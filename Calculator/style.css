@@ -51,7 +51,7 @@ body {
   margin-bottom: 4px;
 }
 
-.innerscreen {
+#screen {
         font-family: 'Share Tech Mono', monospace;
   display: flex;
   align-items: center;
@@ -66,24 +66,21 @@ body {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7),
     -5px -5px 15px rgba(255, 255, 255, 0.05);
   cursor: text;
+  overflow: hidden;
 }
 
 .button:hover {
-  background-color: #3e3e3e;
+  background-color: #000000;
+  
 }
 
 .button:active {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
   transform: scale(0.95);
+  color: yellow;
 }
 
 button {
   all: unset;
 }
 
-input {
-    /* font-family: 'Share Tech Mono', monospace; */
-    /* font-family: 'Share Tech Mono', monospace; */
-  all: unset;
-  text-align: right;
-}
